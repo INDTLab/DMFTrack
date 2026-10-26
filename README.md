@@ -76,7 +76,7 @@ python tracking/analysis_results.py # need to modify tracker configs and names
 ```
 - UAV123
 ```
-python tracking/test.py dmftrack_st2 deit_tiny_patch16_224 --dataset uav123 --threads 4 --num_gpus 1
+python tracking/test.py dmftrack_st deit_tiny_patch16_224 --dataset uav123 --threads 4 --num_gpus 1
 ```
 
 
