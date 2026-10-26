@@ -71,7 +71,7 @@ Change the corresponding values of `lib/test/evaluation/local.py` to the actual 
  Testing examples:
 - VisDrone2018 or other off-line evaluated benchmarks (modify `--dataset` correspondingly)
 ```
-python tracking/test.py dmftrack_st2 deit_tiny_patch16_224 --dataset visdrone2018 --threads 4 --num_gpus 1
+python tracking/test.py dmftrack_st deit_tiny_patch16_224 --dataset visdrone2018 --threads 4 --num_gpus 1
 python tracking/analysis_results.py # need to modify tracker configs and names
 ```
 - UAV123
