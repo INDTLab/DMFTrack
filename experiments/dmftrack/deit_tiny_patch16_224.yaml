@@ -49,8 +49,8 @@ MODEL:
   HEAD:
     TYPE: CENTER
     NUM_CHANNELS: 256
-    USE_MSCP: True   # 是否启用多尺度金字塔
-    MSCP_SCALES: [0.8, 1.0, 1.2]  # 可选自定义尺度
+    USE_MSCP: True 
+    MSCP_SCALES: [0.8, 1.0, 1.2]
 TRAIN:
   BACKBONE_MULTIPLIER: 0.1
   DROP_PATH_RATE: 0.1
