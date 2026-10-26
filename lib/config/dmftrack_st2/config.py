@@ -108,9 +108,9 @@ cfg.TEST.EPOCH = 500
 
 # MATU
 cfg.MATU = edict()
-cfg.MATU.UPDATE_INTERVAL = 100         # 模板更新间隔帧数
-cfg.MATU.UPDATE_THRESH = 0.9          # 模板更新阈值
-cfg.MATU.FEATURE_ALPHA = 0.9        # 特征级混合比例
+cfg.MATU.UPDATE_INTERVAL = 100    
+cfg.MATU.UPDATE_THRESH = 0.9  
+cfg.MATU.FEATURE_ALPHA = 0.9
 
 
 def _edict2dict(dest_dict, src_edict):
