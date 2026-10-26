@@ -81,6 +81,6 @@ TEST:
   TEMPLATE_SIZE: 128
 
 MATU:
-  UPDATE_THRESH: 0.9      # 模板更新阈值
-  UPDATE_INTERVAL: 100         # 模板更新间隔帧数
-  FEATURE_ALPHA: 0.9        # 特征级混合比例
+  UPDATE_THRESH: 0.9  
+  UPDATE_INTERVAL: 100     
+  FEATURE_ALPHA: 0.9   
