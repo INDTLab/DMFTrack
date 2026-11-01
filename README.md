@@ -93,4 +93,10 @@ python tracking/profile_model.py --script dmftrack_st2 --config deit_tiny_patch1
 
 * We use the implementation of the DeiT, Eva02, and ViT from the [Timm](https://github.com/rwightman/pytorch-image-models) repo. 
 
-
+## Citation
+@article{,
+    title={UAV-Based Maritime Object Tracking: A New Data Set and Dynamic Multi-scale Fusion Transformer},
+    author={Xinyue Wang, Jingjing Xiao, Xinghui Dong},
+    journal={Ocean Engineering},
+    year={2026}
+}
