@@ -87,6 +87,8 @@ python tracking/test.py dmftrack_st deit_tiny_patch16_224 --dataset uav123 --thr
 python tracking/profile_model.py --script dmftrack_st2 --config deit_tiny_patch16_224
 ```
 
+## Data Set
+* You can download the dataset from [Alibaba Cloud Drive](https://www.alipan.com/t/t8IhuQmdWsKFLcnlsxi3).
 
 ## Acknowledgment
 * This repo is based on [OSTrack](https://github.com/botaoye/OSTrack) and [PyTracking](https://github.com/visionml/pytracking) library which are excellent works and help us to quickly implement our ideas.
