@@ -88,7 +88,9 @@ python tracking/profile_model.py --script dmftrack_st2 --config deit_tiny_patch1
 ```
 
 ## Data Set and Model
-* You can download the [data set](https://www.alipan.com/t/t8IhuQmdWsKFLcnlsxi3) and [model](https://pan.baidu.com/s/1_clrezqk4jztev82x_j3zw?pwd=c3fj) from Baidu Netdisk.
+* You can download the [data set](https://www.alipan.com/t/t8IhuQmdWsKFLcnlsxi3) and [model weights](https://pan.baidu.com/s/1_clrezqk4jztev82x_j3zw?pwd=c3fj) from Baidu Netdisk.
+* Put the downloaded weights on `<PATH_of_ORTrack>/output/checkpoints/`
+* Change the corresponding values of `lib/test/evaluation/local.py` to the actual benchmark saving paths
 
 ## Acknowledgment
 * This repo is based on [OSTrack](https://github.com/botaoye/OSTrack) and [PyTracking](https://github.com/visionml/pytracking) library which are excellent works and help us to quickly implement our ideas.
