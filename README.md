@@ -99,12 +99,16 @@ python tracking/profile_model.py --script dmftrack_st2 --config deit_tiny_patch1
 
 ## Citation
 ```
-@article{,
-    title={UAV-Based Maritime Object Tracking: A New Data Set and Dynamic Multi-scale Fusion Transformer},
-    author={Xinyue Wang, Jingjing Xiao, Xinghui Dong},
-    journal={Ocean Engineering},
-    doi = {https://doi.org/10.1016/j.oceaneng.2026.129158},
-    year={2026}
+@article{WANG2026129158,
+   title = {UAV-based maritime object tracking: A new data set and Dynamic Multi-scale Fusion Transformer},
+   journal = {Ocean Engineering},
+   volume = {370},
+   pages = {129158},
+   year = {2026},
+   issn = {0029-8018},
+   doi = {https://doi.org/10.1016/j.oceaneng.2026.129158},
+   url = {https://www.sciencedirect.com/science/article/pii/S0029801826049929},
+   author = {Xinyue Wang and Jingjing Xiao and Xinghui Dong},
 }
 ```
 
